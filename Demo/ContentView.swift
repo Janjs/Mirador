@@ -34,18 +34,11 @@ struct ContentView: View {
         let locationAnchor = ContentView.locationAnchor()
         let viewContainer = MiradorViewContainer(locationAnchor: locationAnchor)
         
-        //Custom element
-        let cityCoordinate = Coordinate(latitude:51.51438463, longitude: -0.08024839)
-        let cityLocation = Location(coordinate: cityCoordinate, altitude: 200)
-        let image = UIImage(named: "skyline")!
-        
-        viewContainer.miradorView.addPOIImage(location: cityLocation, image: image)
-        
         return viewContainer
     }
     
     static func locationAnchorFromJSON() -> LocationAnchor? {
-        guard let filePath = Bundle.main.path(forResource: "greenwich", ofType: ".json") else {
+        guard let filePath = Bundle.main.path(forResource: "barcelona", ofType: ".json") else {
             return nil
         }
 
@@ -64,17 +57,17 @@ struct ContentView: View {
                     miradorViewContainer.miradorView.pause()
                 }
             
-//            if let locationAnchor = ContentView.locationAnchorFromJSON() {
-//                let miradorViewContainer = MiradorViewContainer(locationAnchor: locationAnchor)
-//                miradorViewContainer
-//                    .edgesIgnoringSafeArea(.all)
-//                    .onAppear {
-//                        miradorViewContainer.miradorView.run()
-//                    }
-//                    .onDisappear {
-//                        miradorViewContainer.miradorView.pause()
-//                    }
-//            }
+            if let locationAnchor = ContentView.locationAnchorFromJSON() {
+                let miradorViewContainer = MiradorViewContainer(locationAnchor: locationAnchor)
+                miradorViewContainer
+                    .edgesIgnoringSafeArea(.all)
+                    .onAppear {
+                        miradorViewContainer.miradorView.run()
+                    }
+                    .onDisappear {
+                        miradorViewContainer.miradorView.pause()
+                    }
+            }
         }
     }
 }

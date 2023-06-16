@@ -21,7 +21,7 @@
 		49B96DAA2A1A339900AF303A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B96DA92A1A339900AF303A /* ContentView.swift */; };
 		49B96DAC2A1A339A00AF303A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B96DAB2A1A339A00AF303A /* Assets.xcassets */; };
 		49B96DAF2A1A339A00AF303A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B96DAE2A1A339A00AF303A /* Preview Assets.xcassets */; };
-		49FFC9AF2A1C2CFB006AD4E1 /* greenwich.json in Resources */ = {isa = PBXBuildFile; fileRef = 49FFC9AE2A1C2CFB006AD4E1 /* greenwich.json */; };
+		49FFC9AF2A1C2CFB006AD4E1 /* barcelona.json in Resources */ = {isa = PBXBuildFile; fileRef = 49FFC9AE2A1C2CFB006AD4E1 /* barcelona.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 		49B96DA92A1A339900AF303A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		49B96DAB2A1A339A00AF303A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B96DAE2A1A339A00AF303A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		49FFC9AE2A1C2CFB006AD4E1 /* greenwich.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = greenwich.json; sourceTree = "<group>"; };
+		49FFC9AE2A1C2CFB006AD4E1 /* barcelona.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = barcelona.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,7 @@
 				49B96DA72A1A339900AF303A /* MiradorApp.swift */,
 				49B96DA92A1A339900AF303A /* ContentView.swift */,
 				49B96DAB2A1A339A00AF303A /* Assets.xcassets */,
-				49FFC9AE2A1C2CFB006AD4E1 /* greenwich.json */,
+				49FFC9AE2A1C2CFB006AD4E1 /* barcelona.json */,
 				49B96DAD2A1A339A00AF303A /* Preview Content */,
 			);
 			path = Demo;
@@ -176,7 +176,7 @@
 			files = (
 				49B96DAF2A1A339A00AF303A /* Preview Assets.xcassets in Resources */,
 				49B96DAC2A1A339A00AF303A /* Assets.xcassets in Resources */,
-				49FFC9AF2A1C2CFB006AD4E1 /* greenwich.json in Resources */,
+				49FFC9AF2A1C2CFB006AD4E1 /* barcelona.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +327,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = ZMZHK75K6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Mirador uses your camera for AR";
@@ -341,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hyper.Mirador;
+				PRODUCT_BUNDLE_IDENTIFIER = Janjs.Mirador;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,21 +358,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = ZMZHK75K6Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Mirador uses your camera for AR";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Hyper.Mirador;
+				PRODUCT_BUNDLE_IDENTIFIER = Janjs.Mirador;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

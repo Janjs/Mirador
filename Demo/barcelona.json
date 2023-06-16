@@ -24,16 +24,6 @@
             "altitude": 61
         },
         {
-            "name": "Estadi Olímpic",
-            "coordinate": [41.36521558512358, 2.155448804710753],
-            "altitude": 35
-        },
-        {
-            "name": "Hotel Vela",
-            "coordinate": [41.36857613814791, 2.190145864231205],
-            "altitude": 96
-        },
-        {
             "name": "Platja de la Barceloneta",
             "coordinate": [41.37842300015606, 2.192549460560111],
             "altitude": 10
@@ -42,11 +32,6 @@
             "name": "Les Ramblas",
             "coordinate": [41.385721337854946, 2.1697844176373806],
             "altitude": 10
-        },
-        {
-            "name": "Catedral de Barcelona",
-            "coordinate": [41.38415537197566, 2.1760919424189042],
-            "altitude": 59
         }
     ],
     "version": "1.0",
